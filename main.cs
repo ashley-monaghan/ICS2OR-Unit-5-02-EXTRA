@@ -26,12 +26,12 @@ class Program
         if (userNumber == 1 )
         {
           randomNumber = rnd.Next(1, 6);
-          Console.WriteLine("The random number is: " + randomNumber);
+          Console.WriteLine("Your random number is: " + randomNumber);
         }
          else
         {
           randomNumber = rnd.Next(-6, -1);
-          Console.WriteLine("The random number is: " + randomNumber);
+          Console.WriteLine("Your random number is: " + randomNumber);
         }
 
         Console.WriteLine("\nDone.");
