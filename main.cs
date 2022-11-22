@@ -16,22 +16,22 @@ class Program
         Console.WriteLine("Would you like a positive or negative number?");
         Console.WriteLine("");
 
-        Console.Write("Enter '1' if positive or '2' if negative ");
+        Console.WriteLine("Enter '1' if positive or '2' if negative ");
         Console.WriteLine("");
         userNumber = Convert.ToInt16(Console.ReadLine());
 
         Random rnd = new Random();
 
-        Console.WriteLine("");
-        if(userNumber == 1)
+        Console.WriteLine(" ");
+        if (userNumber == 1)
         {
-          randomNumber = rnd.Next(1, 6);
-          Console.WriteLine("Your random number is: " + randomNumber);
+            randomNumber = rnd.Next(1, 6);
+            Console.WriteLine("Your random number is: " + randomNumber);
         }
-         else
+        else
         {
-          randomNumber = rnd.Next(-6, -1);
-          Console.WriteLine("Your random number is: " + randomNumber);
+            randomNumber = rnd.Next(-6, -1);
+            Console.WriteLine("Your random number is: " + randomNumber);
         }
 
         Console.WriteLine("\nDone.");
