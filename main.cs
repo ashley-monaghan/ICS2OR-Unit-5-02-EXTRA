@@ -23,7 +23,7 @@ class Program
         Random rnd = new Random();
 
         Console.WriteLine("");
-        if (userNumber == 1 )
+        if(userNumber == 1)
         {
           randomNumber = rnd.Next(1, 6);
           Console.WriteLine("Your random number is: " + randomNumber);
